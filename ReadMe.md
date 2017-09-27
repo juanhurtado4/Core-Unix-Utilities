@@ -79,20 +79,35 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
+    * `cd ~/code/core/Core-Unix-Utilities`
 1.  Print the contents of the file `Cats.txt`
+    * `cat Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    * `cat Cats.txt ; Cat Dogs.txt`
 1.  Count the words in the file `Cats.txt`
+    * `wc -w Cats.txt`
 1.  Count the words in all files with the extension `.txt`
+    * `wc -w *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+    * `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+    * `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
+    * `mkdir /Animals/`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
+    * `mv Puppies.txt /Shelter/`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+    * `cp Cats.txt /Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+    * `cd /Shelter ; ls`
 1.  Count the words in all `.txt` files inside `Shelter`
+    * `cd /Shelter ; wc -w *.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+    * `rm Shelter`
 1.  Remove all `.txt` files inside `Shelter`
+    * `cd /Shelter ; rm *.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+    * `rm -r Shelter`
 1.  Now cry because you just deleted those poor tiny animals
 
 ### Permissions
