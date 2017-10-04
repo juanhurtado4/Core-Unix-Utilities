@@ -113,11 +113,20 @@ Challenges within each section are meant to be solved in order.
 ### Permissions
 
 1.  Print out your user name
+    * `echo $USER`
 1.  List the permissions (and metadata) of all `.txt` files
+    * `stat *.txt`
 1.  Give all users write permission on the file `Cats.txt`
+    * `chmod a+w Cats.txt`
 1.  List the permissions (and metadata) of the file `Cats.txt`
+    * `stat Cats.txt`
 1.  Change the owner of the file `Cats.txt` to another user
+    * `sudo chown juan2 Cats.txt`
 1.  Now list the permissions (and owner) of the file `Cats.txt`
+    * `stat Cats.txt`
 1.  Try to change the owner of the file `Cats.txt` back to yourself
+    * `chown juanhurtado Cats.txt`
 1.  Invoke the super-user to make the previous command succeed
+    * `sudo chown juanhurtado Cats.txt`
 1.  List the permissions (and owner) of the file `Cats.txt` again
+    * `stat Cats.txt`
