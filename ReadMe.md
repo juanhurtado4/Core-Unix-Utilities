@@ -34,7 +34,7 @@ Challenges within each section are meant to be solved in order.
 1.  List the files in your working directory
     * `ls`
 1.  List the files with a particular extension, like `.txt`
-    * `*.fileExtension`
+    * `ls *.fileExtension`
 1.  List the files in a subdirectory, like `project`
     * `ls subdirectory`
 1.  Navigate to a subdirectory, like `project`
@@ -51,7 +51,7 @@ Challenges within each section are meant to be solved in order.
 ### Variables
 
 1.  Print a sentence, like `Hello world`
-    * `echo Hello world`
+    * `echo "Hello world"`
 1.  Print a variable value, like `$USER` or `$PATH`
     * `echo $USER`
 1.  Set a variable `NAME` equal to your first name, then print its value
@@ -109,6 +109,7 @@ Challenges within each section are meant to be solved in order.
 1.  Remove the directory `Shelter` (this should succeed)
     * `rm -r Shelter`
 1.  Now cry because you just deleted those poor tiny animals
+    * `Head` shows the line of
 
 ### Permissions
 
